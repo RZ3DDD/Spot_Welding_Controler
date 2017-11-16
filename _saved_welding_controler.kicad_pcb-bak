@@ -2,8 +2,8 @@
 
   (general
     (links 69)
-    (no_connects 0)
-    (area 74.078572 22.3 213.421429 111.875)
+    (no_connects 3)
+    (area 89.949999 39.949999 190.050001 111.050001)
     (thickness 1.6)
     (drawings 57)
     (tracks 325)
@@ -65,7 +65,7 @@
     (grid_origin 90 120)
     (visible_elements FFFFEF7F)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x00030_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 0)
+      (drillshape 1)
       (scaleselection 1)
-      (outputdirectory Gerber/))
+      (outputdirectory ""))
   )
 
   (net 0 "")
@@ -1695,7 +1695,7 @@
       (net 2 GNDD))
   )
 
-  (gr_text ATTINY2313-20SU (at 140 54) (layer B.SilkS)
+  (gr_text ATTINY2313-20SU (at 140 54 360) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text 2017.12 (at 183.5 93.5 90) (layer B.SilkS) (tstamp 5A0D5796)
